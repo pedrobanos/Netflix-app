@@ -2,6 +2,6 @@
 
 export default Login = () => {
     return(
-        <h1>Neeeeepeeeeeeee</h1>
+        <h1>PRUEBA DE ENTRAR EN LOGIN</h1>
     )
 }
