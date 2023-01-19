@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+}
+
+
+.container-fluid {
+  display: flex;
+  margin: 0;
+  flex-flow: column wrap;
+  padding: 0%;
+
+}
+
+.custom-row {
+  position: relative;
+  height: 650px;
+}
+
+.custom-row::before {
+  content: "";
+  background-image: url('../src/assets/Images/backgroundImage.jpeg');
+  opacity: 0.4;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.boxImage {
+  translate: 20px;
+  height: 300px;
+}
+
+.netflix-logo {
+  height: 120px;
+  transform: translateX(20px) translateY(-10px);
+}
+
+.button-login {
+background-color: red;
+  transform: translateX(1000px) translateY(-90px);
+}
+
+#body-box {
+  background-color: rgb(81, 81, 81);
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text-frontend {
+  color: white;
+  padding: 10px;
+  width: 750px;
+}
+
+.text-frontend-main-title h1 {
+  font-size: 55px;
+  margin: 20px;
+  text-align: center;
+}
+
+.text-frontend-title h3 {
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+}
+
+.text-frontend-body {
+  margin-top: 35px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.custom-row1 {
+  height: 400px;
+  background-color: black;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
